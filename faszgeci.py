@@ -7,8 +7,8 @@ def main():
 
   muvelet = st.selectbox("Pénznem: ",("dollár","euro"))
 
-  dollar = 0,0029
-  euro = 0,0026 
+  dollar = 0.0029
+  euro = 0.0026 
 
   result = 0
   if muvelet == "dollár":
