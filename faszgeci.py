@@ -11,9 +11,9 @@ def main():
 
   result = 0
   if muvelet == "dollár":
-    result = szam1 * 344
+    result = szam1 * 0,0026
   elif muvelet == "euro":
-    result = szam1 * 377
+    result = szam1 * 0,0029
   st.write(f"Eredmény: {result}")
 
 if __name__ == '__main__':
