@@ -7,13 +7,14 @@ def main():
 
   muvelet = st.selectbox("Pénznem: ",("dollár","euro"))
 
-  
+  dollar = "0,0029"
+  euro = "0,0026" 
 
   result = 0
   if muvelet == "dollár":
-    result = szam1 * 0,0026
+    result = szam1 * dollar
   elif muvelet == "euro":
-    result = szam1 * 0,0029
+    result = szam1 * dollar
   st.write(f"Eredmény: {result}")
 
 if __name__ == '__main__':
